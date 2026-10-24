@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Second Brain Backup</title>
+<style>body{font:18px system-ui;line-height:1.6;max-width:760px;margin:64px auto;padding:0 24px}a{color:#175ba1}</style>
+<main><h1>Second Brain Backup</h1>
+<p>A personal backup application operated by its owner. It uses restic and rclone on the owner's Mac to store encrypted, versioned backups in a dedicated folder in the owner's Google Drive.</p>
+<p>The application requests only the Google Drive <code>drive.file</code> permission. It accesses files created by or specifically made available to this application. It does not require access to the owner's entire Drive.</p>
+<p>Backup contents and filenames inside the restic repository are encrypted before upload. The repository password is stored separately in macOS Keychain. Snapshots are retained; backup is not a bidirectional synchronization service.</p>
+<p>This application is for the owner's personal use and is not offered as a public service. It does not sell data or use backup data for advertising.</p>
+<p><a href="privacy.html">Privacy and data handling</a></p></main></html>
